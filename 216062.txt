@@ -1,0 +1,64 @@
+4. Ги искористив командите:
+- mkdir SI_2023_lab1_216062 за креирање на директориумот
+- cd SI_2023_lab1_216062/ за да влезам во директориумот
+- git init - за иницијализирање на Git во директориумот
+5. Командата за поврзување на моето local repo со repo-то на github:
+git remote add origin https://github.com/LucijaTonkovic/SI_2023_lab1_216062.git
+6. По креирање на фајлот, командите кои се користат се:
+git add README.md - за префрлање на фајлот од untracked во staged
+git commit -m "Initial commit." - На timeline се додаде мојата прва верзија/commit, но само локално во мојот директориум, со соодветната порака
+7. Слично како чекорите под 6, по креирањето на фајлот, ги извршив командите:
+git add SILab1.java
+git commit -m "Add java class."
+8. Поради тоа што нема ништо на remote repo (нема потреба од pull), за синхронизацијата ќе ја извршам само командата push:
+git push origin master - origin e името на remote repo-то и мастер е името на branch-от кој го push-нувам
+9. Се користат командите за креирање на гранки:
+git branch bug1
+git branch bug2
+git branch bug3
+10. Можеме да се префрлиме на гранката bug1 со командата:
+git checkout bug1
+11. По поправање на грешката, слично како претходно ги користам командите:
+git add SILab1.java
+git commit -m "Fix wrong loop for reading."
+12. git checkout bug2
+13. git commit -a -m " Fix wrong condition in filterOddNumbers." - спојување на командата add i commit во еден ред, може да
+се користи -a бидејќи фајлот SILab1.java не е untracked (барем еднаш е искористена командата git add)
+14. git checkout bug3
+15. git commit -a -m "Fix method saveEvenNumbers."
+16. Се префрламе на секоја од гранките, и ги pushnuvame на remote repo-то гранките за да станат и remote branches. Ќе го дадам кодот за една гранка:
+git checkout bug1
+git push -u origin bug1
+17. git checkout master
+18. Се употребува командата git merge bug1 откако сме на гранката master. Ќе се употреби стратегијата Fast-forward, бидејќи на мастер немавме ништо ново што нема на
+гранката bug1. Немаше конфликти.
+19. Промена имаме сега на master гранката, бидејќи го додадовме commit-от од гранката bug1. Затоа, за синхронизација повикуваме:
+git push origin master
+20. git merge bug2 - овој пат се употребува рекурзивна стратегија, бидејќи на мастер имаме commit кој го нема на bug2, т.е. се прави нов commit при merge-ot. Се отвори
+едитор за да се напише пораката на новиот commit, бидејќи не беше специфицирано јас ја ставив пораката "Merge master with branch 'bug2'". Немаше конфликти.
+21. git push origin master
+22. git checkout bug3
+23. git rebase master - Ги зема сите commiti што ги има на master branch, а ги нема на bug3, и ги става пред commit-от на bug3 кој го нема на мастер
+24. git checkout master
+25. git merge bug3 - Fast-forward стратегија, бидејќи сега на bug3 по употреба на rebase ги има сите commiti кои ги има и на мастер. Нема конфликти.
+26. git push origin master
+git checkout bug3
+git push --force origin bug3
+Без --force не може да се push-не, бидејќи историјата на локалната гранка и remote гранката се разликуваат (локалната гранка е поместена), т.е. се добива пораката:
+To https://github.com/LucijaTonkovic/SI_2023_lab1_216062.git
+ ! [rejected]        bug3 -> bug3 (non-fast-forward)
+error: failed to push some refs to 'https://github.com/LucijaTonkovic/SI_2023_lab1_216062.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+--force всушност ја препокрива remote гранката со новата локална гранка.
+27. git add logs.txt
+git add 216062.txt
+git commit -m "Final commit."
+28. git push origin master
+
+
+
+

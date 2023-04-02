@@ -1,0 +1,113 @@
+1. master:
+commit 6bb7442b151bde104d190a7a3bfa78aed45f2acb (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: Lucija Tonkovic <tonkoviclucija02@gmail.com>
+Date:   Sun Apr 2 13:29:23 2023 +0200
+
+    Fix method sumEvenNumbers.
+
+commit b449626d28e231adc314767a0d596c49e7ab309c
+Merge: caedd7d 9d194e8
+Author: LUCIJA\tonko <tonkoviclucija02@gmail.com>
+Date:   Sun Apr 2 13:45:37 2023 +0200
+
+    Merge master with branch 'bug2'.
+
+commit 9d194e8f067c0363d0c7d3f563c8f97ef4086d90 (origin/bug2, bug2)
+Author: Lucija Tonkovic <tonkoviclucija02@gmail.com>
+Date:   Sun Apr 2 13:28:08 2023 +0200
+
+     Fix wrong condition in filterOddNumbers.
+
+commit caedd7d46c429233dd55a50c29794134c5f52b51 (origin/bug1, bug1)
+Author: Lucija Tonkovic <tonkoviclucija02@gmail.com>
+Date:   Sun Apr 2 13:25:55 2023 +0200
+
+    Fix wrong loop for reading.
+
+commit e5cb004c9846cf60e1305c08f3253b80f5732407
+Author: Lucija Tonkovic <tonkoviclucija02@gmail.com>
+Date:   Sun Apr 2 13:21:22 2023 +0200
+
+    Add java class.
+
+commit 35be5af9990a5e492da3e6ecf03cce346873061f
+Author: Lucija Tonkovic <tonkoviclucija02@gmail.com>
+Date:   Sun Apr 2 13:18:19 2023 +0200
+
+    Initial commit.
+
+2.bug1:
+commit caedd7d46c429233dd55a50c29794134c5f52b51 (HEAD -> bug1, origin/bug1)
+Author: Lucija Tonkovic <tonkoviclucija02@gmail.com>
+Date:   Sun Apr 2 13:25:55 2023 +0200
+
+    Fix wrong loop for reading.
+
+commit e5cb004c9846cf60e1305c08f3253b80f5732407
+Author: Lucija Tonkovic <tonkoviclucija02@gmail.com>
+Date:   Sun Apr 2 13:21:22 2023 +0200
+
+    Add java class.
+
+commit 35be5af9990a5e492da3e6ecf03cce346873061f
+Author: Lucija Tonkovic <tonkoviclucija02@gmail.com>
+Date:   Sun Apr 2 13:18:19 2023 +0200
+
+    Initial commit.
+
+3.bug2:
+commit 9d194e8f067c0363d0c7d3f563c8f97ef4086d90 (HEAD -> bug2, origin/bug2)
+Author: Lucija Tonkovic <tonkoviclucija02@gmail.com>
+Date:   Sun Apr 2 13:28:08 2023 +0200
+
+     Fix wrong condition in filterOddNumbers.
+
+commit e5cb004c9846cf60e1305c08f3253b80f5732407
+Author: Lucija Tonkovic <tonkoviclucija02@gmail.com>
+Date:   Sun Apr 2 13:21:22 2023 +0200
+
+    Add java class.
+
+commit 35be5af9990a5e492da3e6ecf03cce346873061f
+Author: Lucija Tonkovic <tonkoviclucija02@gmail.com>
+Date:   Sun Apr 2 13:18:19 2023 +0200
+
+    Initial commit.
+
+4.bug3:
+commit 6bb7442b151bde104d190a7a3bfa78aed45f2acb (HEAD -> bug3, origin/master, origin/bug3, master)
+Author: Lucija Tonkovic <tonkoviclucija02@gmail.com>
+Date:   Sun Apr 2 13:29:23 2023 +0200
+
+    Fix method sumEvenNumbers.
+
+commit b449626d28e231adc314767a0d596c49e7ab309c
+Merge: caedd7d 9d194e8
+Author: LUCIJA\tonko <tonkoviclucija02@gmail.com>
+Date:   Sun Apr 2 13:45:37 2023 +0200
+
+    Merge master with branch 'bug2'.
+
+commit 9d194e8f067c0363d0c7d3f563c8f97ef4086d90 (origin/bug2, bug2)
+Author: Lucija Tonkovic <tonkoviclucija02@gmail.com>
+Date:   Sun Apr 2 13:28:08 2023 +0200
+
+     Fix wrong condition in filterOddNumbers.
+
+commit caedd7d46c429233dd55a50c29794134c5f52b51 (origin/bug1, bug1)
+Author: Lucija Tonkovic <tonkoviclucija02@gmail.com>
+Date:   Sun Apr 2 13:25:55 2023 +0200
+
+    Fix wrong loop for reading.
+
+commit e5cb004c9846cf60e1305c08f3253b80f5732407
+Author: Lucija Tonkovic <tonkoviclucija02@gmail.com>
+Date:   Sun Apr 2 13:21:22 2023 +0200
+
+    Add java class.
+
+commit 35be5af9990a5e492da3e6ecf03cce346873061f
+Author: Lucija Tonkovic <tonkoviclucija02@gmail.com>
+Date:   Sun Apr 2 13:18:19 2023 +0200
+
+    Initial commit.
